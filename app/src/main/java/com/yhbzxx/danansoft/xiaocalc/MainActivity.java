@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         btntest.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View v) {
-                                           Toast.makeText(v.getContext(), "测试一下", Toast.LENGTH_SHORT).show();
+                                           Toast.makeText(v.getContext(), "测试一下!!", Toast.LENGTH_SHORT).show();
                                            File file = new File(getCacheDir() + "info.txt");
                                            OutputStream out = null;
                                            try {
